@@ -19,3 +19,15 @@ Modified LSTM for Smart Eyedrop System Project
 
 ## Connection via Flask
 - By default, code is independent of rest of SES. To reconnect, uncomment 'Flask Connection' code block.
+
+## Data
+- Data is separated by kurtosis, min, max, mean, and median values
+	- Each value is seperated by x, y, and z axis
+- Each entry is assigned one of 6 different labels
+	- Label 0 is given to random movement
+	- Label 1 is given when the eyedropper is applied once
+	- Label 2 is given when the eyedropper is applied twice
+	- Label 3 is given when the eyedropper is dropped
+	- Label 4 is given when the eyedropper is lifted but not used
+	- Label 5 is given when the user walks with the eyedropper
+	
