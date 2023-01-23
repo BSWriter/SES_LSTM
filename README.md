@@ -30,4 +30,6 @@ Modified LSTM for Smart Eyedrop System Project
 	- Label 3 is given when the eyedropper is dropped
 	- Label 4 is given when the eyedropper is lifted but not used
 	- Label 5 is given when the user walks with the eyedropper
-	
+
+## Original SES
+- Instructions for running the original Smart Eyedrop application can be found here: https://github.com/EilonwyLlyr/SED_backend
